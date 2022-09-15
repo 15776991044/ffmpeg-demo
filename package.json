@@ -1,0 +1,37 @@
+{
+  "name": "vue-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "export NODE_OPTIONS=--openssl-legacy-provider; vue-cli-service build",
+    "lint": "export NODE_OPTIONS=--openssl-legacy-provider; vue-cli-service lint"
+  },
+  "dependencies": {
+    "@ffmpeg/ffmpeg": "^0.11.5",
+    "core-js": "^3.25.1",
+    "vue": "^3.2.39"
+  },
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.18.9",
+    "@ffmpeg/core": "^0.11.0",
+    "@vue/cli-plugin-babel": "^5.0.8",
+    "@vue/cli-plugin-eslint": "^5.0.8",
+    "@vue/cli-service": "^5.0.8",
+    "@vue/compiler-sfc": "^3.2.36",
+    "eslint": "^8.23.0",
+    "eslint-plugin-vue": "^9.2.0",
+    "vue-cli-plugin-compression": "^1.2.0",
+    "zlib": "^1.0.5"
+  },
+  "author": {
+    "name": "Vinayak Kulkarni",
+    "email": "inbox.vinayak@gmail.com",
+    "url": "https://vinayakkulkarni.dev"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=17.0.0",
+    "npm": ">=8.0.0"
+  }
+}
