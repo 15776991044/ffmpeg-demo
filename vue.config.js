@@ -9,9 +9,9 @@ module.exports = defineConfig({
   transpileDependencies: false,
   productionSourceMap: true,
   runtimeCompiler: true,
-  lintOnSave: true,
+  lintOnSave: false,  //lintOnSave
   parallel: true,
-  integrity: true,
+  integrity: false,    //integrity
   publicPath: process.env.NODE_ENV === "production" ? "/vue-app/" : "/",
   configureWebpack: {
     devServer: {
